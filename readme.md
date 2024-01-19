@@ -7,6 +7,12 @@ This is a very basic ELS system for fivem
 - Toggle between diffrent light patterns
 - Turn on/off emergency lights
 - Toggle siren using WM-ServerSirens index
+- New .json files that you can customize
+
+
+# New Features
+
+- New .json files added that contain the lights.json and the keybinds.json files, these will be really simple to use and will make this script 10x better than it was before.
 
 # Installation
 
