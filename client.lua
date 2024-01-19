@@ -1,6 +1,10 @@
 local currentStage = 0
 local isLightsOn = false
 local isSirenActive = false
+local json = load(fileRead(".json"))()
+local vehicleData = json.load(fileRead(".json/lights.json"))()
+local keybindsData = json.load(fileRead(".json/keybinds.json"))()
+
 
 -- Define light patterns for each stage
 local lightPatterns = {
@@ -77,3 +81,4 @@ Citizen.CreateThread(function()
         end
     end
 end)
+

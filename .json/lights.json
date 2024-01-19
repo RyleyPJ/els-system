@@ -1,0 +1,18 @@
+{
+    "vehicles": [
+      {
+        "model": "adder",  -- Replace with the model name of your vehicle
+        "sirenIndex": 1    -- Replace with the appropriate siren index from WM-serverSirens
+      },
+      {
+        "model": "police",
+        "sirenIndex": 2
+      },
+      {
+        "model": "ambulance",
+        "sirenIndex": 3
+      }
+      -- Add more in the same format as above.
+    ]
+  }
+  
